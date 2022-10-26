@@ -1,0 +1,126 @@
+html {
+    background: url('../img/fundohtml.png');
+    font-size: 20px;
+    text-align: justify;
+    margin: 1em 10em 1em 10em;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 35%;
+}
+
+section {
+    outline: auto;
+    padding: 1em;
+    outline-color: rgb(128, 128, 128);
+    outline-style: double;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+header > img {
+    width: 100%;
+    max-height: 400px;
+}
+
+nav {
+    word-spacing: 10em;
+    padding: 1em;
+    text-align: center;
+    outline-style: groove;
+    background: url('../img/carbono.jpg');
+}
+
+h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    word-spacing: 0.5em;
+    outline-style: double;
+    background-image: linear-gradient( to right, blue , white);
+}
+
+h2 {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.818) ;
+    text-decoration: underline;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+    word-spacing: 1em;
+    outline-style: double;
+    background-image: linear-gradient(to left, red, white);
+}
+
+p {
+    font-family: 'Sriracha', cursive;
+    margin: 1em;
+    text-align: justify;
+    text-indent: 2em;
+    font-weight: bold;
+}
+small {
+    text-decoration: underline;
+    text-transform: italic;
+    font-size: 20px;
+}
+
+main {
+    text-align:center;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+article {
+    background: url('../img/carbono.jpg');
+    outline: auto;
+    border-radius: 20%;
+}
+
+article > p {
+    font-size: 30px;
+    padding: 0.5em;
+    border: 1em;
+    text-align: center;
+}
+
+article > p > a {
+    color: rgba(0, 0, 255, 0.818);
+}
+
+footer {
+    background: url('../img/carbono.jpg');
+    border-radius: 5%;
+}
+
+footer > p {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+address {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+a {
+    font-family: "Saira Stencil One";
+    font-size: 28px;
+    color: white;
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(255, 0, 0));
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
